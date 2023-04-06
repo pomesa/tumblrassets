@@ -23,21 +23,7 @@
     z-index:69;
 }
 
-.mp-top {
-    top:0;margin-top:var(--MusicPlayer-Edge-Offset);
-}
 
-.mp-bot {
-    bottom:0;margin-bottom:var(--MusicPlayer-Edge-Offset);
-}
-
-.mp-left {
-    left:0;margin-left:var(--MusicPlayer-Edge-Offset);
-}
-
-.mp-right {
-    right:0;margin-right:var(--MusicPlayer-Edge-Offset);
-}
 
 [M02controls]{
     height:var(--MusicPlayer-Buttons-Size);
