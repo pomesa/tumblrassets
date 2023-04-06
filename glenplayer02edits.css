@@ -42,7 +42,7 @@
 }
 
 [M02controls] svg path {
-    fill:var(--MusicPlayer-Buttons-Color)
+    fill:#0007ff;
 }
 
 [M02pause] {display:none;}
@@ -50,18 +50,10 @@
 .qxdvl {display:block;}
 .sxnvw {display:none;}
 
-[glenplayer02] .aa-line-icons {
-    margin-left:var(--MusicPlayer-Spacing-1);
-    --Line-Icons-Size:var(--MusicPlayer-Note-Size);
-    --Line-Icons-Color:var(--MusicPlayer-Note-Color);
-}
-
 [glenplayer02] [song-name]{
-    margin-left:var(--MusicPlayer-Spacing-2);
+    margin-left:var(--MusicPlayer-Spacing);
     font-family: 'pixelthin';
                 src: url('https://dl.dropboxusercontent.com/s/5rhx0odgk2ibhim/thin_pixel-7.ttf');
-    font-size:var(--MusicPlayer-Text-Size);
-    text-transform:uppercase;
     letter-spacing:.5px;
-    color:var(--MusicPlayer-Text-Color);
+    color:#ffffff;
 }
