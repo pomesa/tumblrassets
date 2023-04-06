@@ -26,19 +26,19 @@
 
 
 [M02controls]{
-    height:var(--MusicPlayer-Buttons-Size);
+    height:20px;
     cursor:pointer;
 }
 
 [M02play]{
-    margin-left:calc(0px - (var(--MusicPlayer-Buttons-Size) * 0.1));
-    padding-right:calc(var(--MusicPlayer-Buttons-Size) * 0.1);
+    margin-left:calc(0px - (20px * 0.1));
+    padding-right:calc(20px * 0.1);
 }
 
 [M02controls] svg {
     display:block;
-    width:var(--MusicPlayer-Buttons-Size);
-    height:var(--MusicPlayer-Buttons-Size);
+    width:20px;
+    height:20px;
 }
 
 [M02controls] svg path {
