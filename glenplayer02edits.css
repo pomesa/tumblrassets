@@ -1,0 +1,81 @@
+/*---------------------------------------------------
+    
+    MUSIC PLAYER #02 by glenthemes
+    
+    Initial release: 2018/10/30
+    Rework date: 2022/02/03
+    Last updated: 2022/02/16
+    
+    4/6/23 @pomesa edits for tumblr
+
+    CREDITS:
+    > play & pause icons: Phosphor Icons
+    > music note icon: Ahmed Agrma
+      behance.net/gallery/94660737/400-Free-Line-Icons
+    
+---------------------------------------------------*/
+
+[glenplayer02]{
+    display:flex;
+    float: right;
+    align-items:center;
+    visibility:hidden;
+    z-index:69;
+}
+
+.mp-top {
+    top:0;margin-top:var(--MusicPlayer-Edge-Offset);
+}
+
+.mp-bot {
+    bottom:0;margin-bottom:var(--MusicPlayer-Edge-Offset);
+}
+
+.mp-left {
+    left:0;margin-left:var(--MusicPlayer-Edge-Offset);
+}
+
+.mp-right {
+    right:0;margin-right:var(--MusicPlayer-Edge-Offset);
+}
+
+[M02controls]{
+    height:var(--MusicPlayer-Buttons-Size);
+    cursor:pointer;
+}
+
+[M02play]{
+    margin-left:calc(0px - (var(--MusicPlayer-Buttons-Size) * 0.1));
+    padding-right:calc(var(--MusicPlayer-Buttons-Size) * 0.1);
+}
+
+[M02controls] svg {
+    display:block;
+    width:var(--MusicPlayer-Buttons-Size);
+    height:var(--MusicPlayer-Buttons-Size);
+}
+
+[M02controls] svg path {
+    fill:var(--MusicPlayer-Buttons-Color)
+}
+
+[M02pause] {display:none;}
+
+.qxdvl {display:block;}
+.sxnvw {display:none;}
+
+[glenplayer02] .aa-line-icons {
+    margin-left:var(--MusicPlayer-Spacing-1);
+    --Line-Icons-Size:var(--MusicPlayer-Note-Size);
+    --Line-Icons-Color:var(--MusicPlayer-Note-Color);
+}
+
+[glenplayer02] [song-name]{
+    margin-left:var(--MusicPlayer-Spacing-2);
+    font-family: 'pixelthin';
+                src: url('https://dl.dropboxusercontent.com/s/5rhx0odgk2ibhim/thin_pixel-7.ttf');
+    font-size:var(--MusicPlayer-Text-Size);
+    text-transform:uppercase;
+    letter-spacing:.5px;
+    color:var(--MusicPlayer-Text-Color);
+}
