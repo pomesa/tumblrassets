@@ -42,7 +42,7 @@ $(document).ready(function(){
         $(this).append("<div M02pause></div>");
     })
     
-    var filamu = $.trim(root.getPropertyValue("--MusicPlayer-Buttons-Fill"));
+    var filamu = #0007ff;
     
    // outlined icons
     if(filamu == "no"){
@@ -57,7 +57,7 @@ $(document).ready(function(){
     }
     
     /* music player position */
-    var MPpoz = $.trim(root.getPropertyValue("--MusicPlayer-Position"));
+    var MPpoz = inline;
     
     var uvalz = MPpoz.split(" ").length;
     var uveach = MPpoz.split(" ");
