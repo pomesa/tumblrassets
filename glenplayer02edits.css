@@ -40,7 +40,7 @@
 }
 
 [M02controls]{
-    height:var(--MusicPlayer-Buttons-Size);
+    height:20px;
     cursor:pointer;
 }
 
